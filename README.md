@@ -7,8 +7,6 @@ This is some custom code snippet to make development faster. It Containts snippe
 
 ## Getting Started
 
-This is a template 
-
 ### Prerequisites
 
 Xcode
