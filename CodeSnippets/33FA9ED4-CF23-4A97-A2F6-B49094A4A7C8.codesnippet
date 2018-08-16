@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>notificationobserverpattern-observer</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> private func createObserver() {
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(ProfileV2VC.updateUI(_:)),
+            name: NSNotification.Name(rawValue: Resources.String.changeProfileNotificationKey),
+            object: nil
+        )
+    // To Observe, use code below
+    /*
+    if let isSuccess = notification.userInfo?["isSuccessChangeProfile"] as? Bool {
+    }
+    */</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>33FA9ED4-CF23-4A97-A2F6-B49094A4A7C8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Observer for Notification</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Notification observer pattern - Observer</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
