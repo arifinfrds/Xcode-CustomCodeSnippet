@@ -27,6 +27,29 @@ mark
 ```
 or other supported snippet mentioned above, and you will see the code snippet.
 
+## Supported Code Snippet
+
+### Comments
+```
+mark, fixme, todo
+```
+
+### UITableView
+```
+uitableviewdatasource, uitableviewdelegate, setuptableview, setuptableviewcell
+```
+
+### Communication Pattern
+```
+ delegatepattern, notificationobserverpattern-observer, notificationobserverpattern-notification
+```
+
+### RxSwift
+```
+ rxbindtextfield, rxbindbutton, rxsubscribe
+```
+
+
 ## Authors
 
 * **Arifin Firdaus** - *Initial work* - [Xcode-CustomCodeSnippet](https://github.com/arifinfrds/Xcode-CustomCodeSnippet)
