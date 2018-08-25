@@ -3,27 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>notificationobserverpattern-notification</string>
+	<string>rxbindtextfield</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> internal func broadcastNotification() {
-        let notificationName = Notification.Name(rawValue: Resources.String.changeProfileNotificationKey)
-        let info = ["isSuccessChangeProfile" : true]
-        NotificationCenter.default.post(name: notificationName, object: nil, userInfo: info)
-    }</string>
+	<string>let _ = self.usernameTextField.rx.text.map { $0 ?? "" }.bind(to: self.viewModel.username)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1ABE9F35-21C5-4360-8BBA-535CF1546056</string>
+	<string>2EC6C969-8724-4695-9462-FD5B494041BA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Broadcast Notification</string>
+	<string>Bind UITextField to ViewModel</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Notification Observer Pattern - Notification</string>
+	<string>RxSwift bind UITextField</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
