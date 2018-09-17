@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let _ = loginViewModel.isValid.bind(to: self.loginButton.rx.isEnabled)</string>
+	<string>let _ = &lt;#T##ViewModel#&gt;.isValid.bind(to: self.&lt;#T##UIButton#&gt;.rx.isEnabled)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>38FDA674-5286-4037-910C-BF4C01034676</string>
 	<key>IDECodeSnippetLanguage</key>

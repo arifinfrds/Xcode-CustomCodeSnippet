@@ -10,8 +10,8 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>    private func setupCell() {
-        let nib = UINib(nibName: "PromoV2Cell", bundle: nil)
-        tableView.register(nib, forCellReuseIdentifier: "PromoV2Cell")
+        let nib = UINib(nibName: &lt;#T##NibName#&gt;, bundle: nil)
+        &lt;#T##UITableView#&gt;.register(nib, forCellReuseIdentifier: &lt;#T##CellId#&gt;)
     }
 </string>
 	<key>IDECodeSnippetIdentifier</key>

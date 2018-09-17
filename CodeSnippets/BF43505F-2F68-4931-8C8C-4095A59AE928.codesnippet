@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>// MARK: - UITableViewDelegate
 
-extension ViewController: UITableViewDelegate {
+extension &lt;#T##UIViewController#&gt;: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -&gt; CGFloat {
         return 100

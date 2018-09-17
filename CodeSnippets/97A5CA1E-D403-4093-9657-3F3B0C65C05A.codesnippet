@@ -3,27 +3,41 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>setuptableview</string>
+	<string>layerresources</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    private func setupTableView() {
-        &lt;#T##UITableView#&gt;.dataSource = self
-        &lt;#T##UITableView#&gt;.delegate = self
-        &lt;#T##UITableView#&gt;.tableFooterView = UIView()
-    }</string>
+	<string>struct Resources {
+    
+    struct Color {
+        
+    }
+    
+    struct String {
+        
+    }
+    
+    struct Dimen {
+        
+    }
+    
+    struct Anim {
+        
+    }
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9E4E2A12-09F3-499C-B81A-D5B669F6B970</string>
+	<string>97A5CA1E-D403-4093-9657-3F3B0C65C05A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Simple TableView setup</string>
+	<string>Architecture Resources Layer</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Simple TableView setup</string>
+	<string>Layer Resources</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

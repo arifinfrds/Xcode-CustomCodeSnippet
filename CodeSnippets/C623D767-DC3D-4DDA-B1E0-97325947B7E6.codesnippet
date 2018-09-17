@@ -3,27 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>setuptableview</string>
+	<string>rxobservableisvalid</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    private func setupTableView() {
-        &lt;#T##UITableView#&gt;.dataSource = self
-        &lt;#T##UITableView#&gt;.delegate = self
-        &lt;#T##UITableView#&gt;.tableFooterView = UIView()
+	<string> var isValid: Observable&lt;Bool&gt; {
+        return Observable.combineLatest(self.username.asObservable(), self.password.asObservable()) { (username, password) in
+            username.characters.count &gt;= 3 &amp;&amp; password.characters.count &gt;= 3
+        }
     }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9E4E2A12-09F3-499C-B81A-D5B669F6B970</string>
+	<string>C623D767-DC3D-4DDA-B1E0-97325947B7E6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Simple TableView setup</string>
+	<string>RxSwift Observable isValid for ViewModel (CombineLatest)</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Simple TableView setup</string>
+	<string>RxSwift Observable isValid for ViewModel</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

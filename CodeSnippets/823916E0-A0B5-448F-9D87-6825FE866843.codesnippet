@@ -3,27 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>setuptableview</string>
+	<string>layerviewmodel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    private func setupTableView() {
-        &lt;#T##UITableView#&gt;.dataSource = self
-        &lt;#T##UITableView#&gt;.delegate = self
-        &lt;#T##UITableView#&gt;.tableFooterView = UIView()
-    }</string>
+	<string>struct &lt;#T##ViewModel name#&gt; {
+
+
+
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9E4E2A12-09F3-499C-B81A-D5B669F6B970</string>
+	<string>823916E0-A0B5-448F-9D87-6825FE866843</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Simple TableView setup</string>
+	<string>Architecture ViewModel Layer for MVVM</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Simple TableView setup</string>
+	<string>Layer ViewModel for MVVM</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,27 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>setuptableview</string>
+	<string>rxvariable</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    private func setupTableView() {
-        &lt;#T##UITableView#&gt;.dataSource = self
-        &lt;#T##UITableView#&gt;.delegate = self
-        &lt;#T##UITableView#&gt;.tableFooterView = UIView()
-    }</string>
+	<string>var &lt;#T##name#&gt; = Variable&lt;String&gt;("")</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9E4E2A12-09F3-499C-B81A-D5B669F6B970</string>
+	<string>FE830B06-B131-481C-8AB8-8EEECA1C88EF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Simple TableView setup</string>
+	<string>RxSwift Variable for ViewModel</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Simple TableView setup</string>
+	<string>RxSwift Variable for ViewModel</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

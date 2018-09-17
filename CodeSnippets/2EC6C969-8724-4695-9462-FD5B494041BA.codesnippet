@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let _ = self.usernameTextField.rx.text.map { $0 ?? "" }.bind(to: self.viewModel.username)</string>
+	<string>let _ = self.usernameTextField.rx.text.map { $0 ?? "" }.bind(to: self.&lt;#T##ViewModel#&gt;.username)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>2EC6C969-8724-4695-9462-FD5B494041BA</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -11,14 +11,14 @@
 	<key>IDECodeSnippetContents</key>
 	<string>// MARK: - UITableViewDataSource
 
-extension ViewController: UITableViewDataSource {
+extension &lt;#T##UIViewController#&gt;: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
         return 15
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
-        let cell = UITableViewCell()
+        let cell = &lt;#T##UITableView#&gt;.dequeueReusableCell(withIdentifier: &lt;#T##String#&gt;, for: &lt;#T##IndexPath#&gt;) as! &lt;#T##UITableView#&gt;
         return cell
     }
     

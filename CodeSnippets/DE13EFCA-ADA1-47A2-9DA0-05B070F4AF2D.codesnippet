@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let _ = loginViewModel.isValid.subscribe(onNext: &lt;#T##((Bool) -&gt; Void)?##((Bool) -&gt; Void)?##(Bool) -&gt; Void#&gt;).disposed(by: &lt;#T##DisposeBag#&gt;)</string>
+	<string>let _ = &lt;#T##ViewModel#&gt;.&lt;#T##Observable&lt;Bool&gt;#&gt;.subscribe(onNext: &lt;#T##((Bool) -&gt; Void)?##((Bool) -&gt; Void)?##(Bool) -&gt; Void#&gt;).disposed(by: &lt;#T##DisposeBag#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DE13EFCA-ADA1-47A2-9DA0-05B070F4AF2D</string>
 	<key>IDECodeSnippetLanguage</key>

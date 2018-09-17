@@ -23,7 +23,7 @@ protocol SomeDelegate {
 	<key>IDECodeSnippetSummary</key>
 	<string>Simple Delegate Pattern</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Delegate Pattern</string>
+	<string>Pattern - Delegate Pattern</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
