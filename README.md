@@ -44,9 +44,14 @@ uitableviewdatasource, uitableviewdelegate, setuptableview, setuptableviewcell
  delegatepattern, notificationobserverpattern-observer, notificationobserverpattern-notification
 ```
 
-### RxSwift
+### RxSwift & RxCocoa
 ```
- rxbindtextfield, rxbindbutton, rxsubscribe
+ rxbindtextfield, rxbindbutton, rxsubscribe, setupTableViewRxItems, setupTableViewRxModelSelected
+```
+
+### Programmatic UIKit Construction
+```
+ constructtableview, constructimageview, çonstructlabel, ...
 ```
 
 
