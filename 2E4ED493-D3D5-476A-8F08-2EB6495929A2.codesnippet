@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>setupTableViewRxModelSelected</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    fileprivate func setupTableViewRxModelSelected() {
+        tableView.rx.modelSelected(&lt;#T##T.Type#&gt;)
+            .subscribe(onNext: { [weak self] element in
+                
+            })
+            .disposed(by: disposeBag)
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2E4ED493-D3D5-476A-8F08-2EB6495929A2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Simple RxSwift UITableView Model Selected</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>RxSwift UITableView Model Selected Setup</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

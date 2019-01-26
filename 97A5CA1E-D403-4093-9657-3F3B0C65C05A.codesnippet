@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>layerresources</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>struct Resources {
+    
+    struct Color {
+        
+    }
+    
+    struct String {
+        
+    }
+    
+    struct Dimen {
+        
+    }
+    
+    struct Anim {
+        
+    }
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>97A5CA1E-D403-4093-9657-3F3B0C65C05A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Architecture Resources Layer</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Layer Resources</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

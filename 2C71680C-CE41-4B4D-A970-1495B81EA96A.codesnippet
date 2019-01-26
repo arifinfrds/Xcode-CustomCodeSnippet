@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>marksForViewController</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// MARK: - Injections
+
+
+// MARK: - Properties
+
+
+// MARK: - View life cycle
+
+
+// MARK: - Actions
+
+
+// MARK: - UI Setup
+
+private var activityIndicatorView: UIActivityIndicatorView!
+
+private func setupActivityIndicatorView() {
+    activityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: .whiteLarge)
+    activityIndicatorView.hidesWhenStopped = true
+    activityIndicatorView.color = .gray
+    activityIndicatorView.center = CGPoint(x: view.frame.width / 2, y: (view.frame.width / 2) + (view.frame.width / 3))
+    view.addSubview(activityIndicatorView)
+}
+
+
+// MARK: - Navigation
+
+
+// MARK: - Network Call
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2C71680C-CE41-4B4D-A970-1495B81EA96A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>My Common Marks for View Controller</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Marks for View Controller</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

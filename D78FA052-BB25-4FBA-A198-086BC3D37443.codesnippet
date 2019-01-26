@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>layerdataservice</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>struct &lt;#T##DataService#&gt; {
+    
+    static let shared = &lt;#T##DataService#&gt;()
+    
+    func &lt;#T##Function name#&gt;(completion: () -&gt; ()) {
+        &lt;#T##code#&gt;
+    }
+    
+    func &lt;#T##Function name#&gt;(onSuccess: (() -&gt; ())?, onFailure: (()-&gt; ())?) {
+        &lt;#T##code#&gt;
+    }
+    
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D78FA052-BB25-4FBA-A198-086BC3D37443</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Architecture DataService Layer</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Layer DataService</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

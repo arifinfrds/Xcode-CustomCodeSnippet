@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>setuptableview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    private func setupTableView() {
+        &lt;#T##UITableView#&gt;.dataSource = self
+        &lt;#T##UITableView#&gt;.delegate = self
+        &lt;#T##UITableView#&gt;.tableFooterView = UIView()
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9E4E2A12-09F3-499C-B81A-D5B669F6B970</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Simple TableView setup</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Simple TableView setup</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

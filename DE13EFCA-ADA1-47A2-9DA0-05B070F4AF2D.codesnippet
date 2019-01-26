@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>rxsubscribe</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let _ = &lt;#T##ViewModel#&gt;.&lt;#T##Observable&lt;Bool&gt;#&gt;.subscribe(onNext: &lt;#T##((Bool) -&gt; Void)?##((Bool) -&gt; Void)?##(Bool) -&gt; Void#&gt;).disposed(by: &lt;#T##DisposeBag#&gt;)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DE13EFCA-ADA1-47A2-9DA0-05B070F4AF2D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Simple RxSwift Subscribe</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>RxSwift Subscribe</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

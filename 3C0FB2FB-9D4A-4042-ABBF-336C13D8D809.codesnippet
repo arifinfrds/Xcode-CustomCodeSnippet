@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>setupTableViewRxItems</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    fileprivate func setupTableViewRxItems() {        
+        dataSource.asDriver(onErrorJustReturn: [])
+            .drive(tableView.rx.items(cellIdentifier: &lt;#T##String#&gt;, cellType: &lt;#T##Cell.Type#&gt;)) { (row, element, cell) in
+                // TODO: - Do something
+            }
+            .disposed(by: disposeBag)
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3C0FB2FB-9D4A-4042-ABBF-336C13D8D809</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Simple RxSwift UITableVIew Setup</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>RxSwift UITableView Setup</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
