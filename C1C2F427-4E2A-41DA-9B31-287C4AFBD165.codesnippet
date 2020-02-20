@@ -2,29 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>constview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    
-    func updateAuthDataPersistable(name: String,
-                                   gender: String,
-                                   phoneNumber: String,
-                                   phoneToken: String,
-                                   completion: (() -&gt; Void)?) {
-        
-        AuthDataPersistable.shared.userFullname = name
-        AuthDataPersistable.shared.userGender = gender
-        AuthDataPersistable.shared.userPhoneNumber = phoneNumber
-        AuthDataPersistable.shared.userPhoneToken = phoneToken
-    }</string>
+	<string>    let containerView: UIView = {
+        let view = UIView(frame: .zero)
+        return view
+    }()
+    </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C1C2F427-4E2A-41DA-9B31-287C4AFBD165</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Create UIView Programmatically</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>Construct UIView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

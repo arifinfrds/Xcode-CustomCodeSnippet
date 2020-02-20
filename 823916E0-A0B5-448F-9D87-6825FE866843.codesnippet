@@ -3,16 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>layerviewmodel</string>
+	<string>viewmodelsetcreate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>struct &lt;#T##ViewModel name#&gt; {
+	<string>private(set) var viewModel: &lt;#ViewModelProtocol#&gt;!
 
-
-
+final class func create(with viewModel: &lt;#ViewModelProtocol#&gt;) -&gt; &lt;#UIViewController#&gt; {
+    let vc = &lt;#ViewController#&gt;.instantiateViewController()
+    vc.viewModel = viewModel
+    return vc
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>823916E0-A0B5-448F-9D87-6825FE866843</string>
@@ -21,9 +24,9 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Architecture ViewModel Layer for MVVM</string>
+	<string>Clean architecture MVVM from Oleh Kudinov</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Layer ViewModel for MVVM</string>
+	<string>Presentation - ViewModel+ViewController creation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
